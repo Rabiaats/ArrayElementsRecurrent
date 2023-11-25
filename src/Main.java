@@ -18,7 +18,7 @@ public class Main {
                 j++;
             }
             if (count != 1 && (numbers[i] % 2 == 0)){
-                if(recurrentNumber[recurrentNumber.length -1] != 0){
+                if(recurrentNumber[recurrentNumber.length -1] != 0){// arrayimiz dolduğunda eleman sayısını gelen elemana göre arttırıyoruz
                     int[] tmp = new int[recurrentNumber.length + 1];
                     for (int l = 0; l < recurrentNumber.length; l++){
                         tmp[l] = recurrentNumber[l];
